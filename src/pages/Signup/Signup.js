@@ -28,7 +28,7 @@ const Signup = () => {
       password: e.target.password.value,
       bio: e.target.bio.value,
     };
-    // console.log("data: ", data);
+    console.log("data: ", data);
 
     signup({
       variables: data,
